@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,100&display=swap');
+.allinall{
+	justify-content: space-evenly;
+	margin: 134px 5%;
+}
+.h3{
+	text-align: center;
+	font-family: Roboto;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.h1{
+	color: #000;
+	font-family: Roboto;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
+.container2{
+	display: flex;
+	flex: 0 0 auto;
+	justify-content: space-evenly;
+	width: auto;
+	margin: auto;
+
+}
+.container{
+	flex: 0 0 auto;
+	padding: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 520px;
+	height: 375px;
+	border: 10px solid #307AE9;
+}	
+.h12{
+	color: #000;
+	font-family: Roboto;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;;
+}
+
+#name{
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	width: 448px;
+	height: 50px;
+	color: rgba(149, 149, 149, 0.55);
+	font-family: Roboto;
+	font-size: 25px;
+}
+.but{
+	background: #0C56C5;
+	width: 454px;
+	height: 75px;
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	border: none;
+	margin-top: auto;
+
+}
+
+.container3{
+	text-align: center;
+    display: flex;
+    margin: 0 20px;
+    gap: 25px;
+    justify-content: space-evenly;
+
+
+}
+.item {
+	display: block;
+	margin: auto;
+}
+.container3 p{
+	font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.container3 img{
+	width: 150px;
+	height: 150px;
+}
+.why{
+	font-family: 'Roboto';
+	text-align: center;
+	font-family: Roboto;
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-weight: 700;
+
+}
+.buto:hover{
+	background: black;
+	transition: all 0.2s ease-in-out;
+	color: white;
+	border-radius: 20px;
+}
+.buto:active{
+	transform: scale(1.1);
+	background: black;
+	color: white;
+	border-radius: 20px;
+}
+.buto:focus{
+	background: black;
+	color: white;
+	border-radius: 20px;
+}
+.buto{
+	display: block;
+    margin: 0 auto;
+    background: none;
+	width: 454px;
+	height: 75px;
+	color: black;
+	font-family: Roboto;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	border: 3.5px solid black;
+	margin-top: auto;
+}
+.but:hover{
+	background: black;
+	transition: all 0.2s ease-in-out;
+	color: white;
+	border-radius: 20px;
+
+}
+.but:active{
+	transform: scale(1.1);
+	background: black;
+	color: white;
+	border-radius: 20px;
+}
+.but:focus{
+	background: black;
+	color: white;
+	border-radius: 20px;
+
+}
+
+.item:hover{
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
